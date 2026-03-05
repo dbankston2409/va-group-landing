@@ -69,6 +69,65 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Services Section */}
+      <section id="services" className="py-20 px-6 bg-navy">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-5xl font-bold text-center mb-4 text-white">
+            Our Services
+          </h2>
+          <p className="text-xl text-gray-400 text-center mb-16 max-w-2xl mx-auto">
+            Comprehensive virtual assistance solutions designed to elevate your business operations.
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Virtual Assistants Card */}
+            <div className="group bg-navy-dark border-2 border-gold/20 hover:border-gold rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:shadow-gold/20">
+              <div className="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gold/20 transition-colors duration-300">
+                <svg className="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-gold transition-colors duration-300">
+                Virtual Assistants
+              </h3>
+              <p className="text-gray-400 leading-relaxed">
+                Skilled professionals ready to handle administrative tasks, customer support, scheduling, and day-to-day operations so you can focus on growth.
+              </p>
+            </div>
+
+            {/* Social Media Management Card */}
+            <div className="group bg-navy-dark border-2 border-gold/20 hover:border-gold rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:shadow-gold/20">
+              <div className="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gold/20 transition-colors duration-300">
+                <svg className="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-gold transition-colors duration-300">
+                Social Media Management
+              </h3>
+              <p className="text-gray-400 leading-relaxed">
+                Strategic content creation, community engagement, and analytics to build your brand presence and connect with your audience across all platforms.
+              </p>
+            </div>
+
+            {/* Lead Generation Card */}
+            <div className="group bg-navy-dark border-2 border-gold/20 hover:border-gold rounded-xl p-8 transition-all duration-300 hover:shadow-xl hover:shadow-gold/20">
+              <div className="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gold/20 transition-colors duration-300">
+                <svg className="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-gold transition-colors duration-300">
+                Lead Generation
+              </h3>
+              <p className="text-gray-400 leading-relaxed">
+                Targeted prospecting and outreach strategies to identify qualified leads, fill your pipeline, and accelerate your sales cycle with data-driven precision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section id="testimonials" className="py-20 px-6 bg-navy-dark">
         <div className="max-w-7xl mx-auto">
